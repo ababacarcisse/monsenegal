@@ -26,8 +26,7 @@ export default function Home() {
     <>
       <MaxWidthWrapper>
         <div className="py-20 mx-auto text-center flex flex-col items-center max-w-3xl">
-        
-        <h1 className="text-4xl  font-bolt tacking-light text-gray-900 sm:text-6xl">Découvrez le Sénégal  </h1>
+       <h1 className="text-4xl  font-bolt tacking-light text-gray-900 sm:text-6xl">Découvrez le Sénégal  </h1>
         <span className="text-xl text-blue-600">Le pays de la Teranga </span>
                 <span className="text-xl text-blue-600">un pays de nature et de culture  </span>
 <p className="mt-6 text-lg max-w-pross text-muted-foreground">
