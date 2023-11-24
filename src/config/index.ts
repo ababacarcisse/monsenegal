@@ -4,17 +4,17 @@ export const PRODUCT_CATEGORIES=[
         value: 'circuit_touristique' as const,
         featered:[
             {
-                name:'Editer un circuit',
+                name:'Team Building',
                 href:'#',
                 imageSrc:'/nav/circuit.jpeg'
             },
             {
-                name:'Editer un circuit Resto',
+                name:'Rendonner',
                 href:'#',
                 imageSrc:'/nav/resto.jpeg'
             },
             {
-                name:'Editer un travel',
+                name:'Excursion',
                 href:'#',
                 imageSrc:'/nav/travel.jpeg'
             }
@@ -23,21 +23,21 @@ export const PRODUCT_CATEGORIES=[
 
     },
     {
-        label: 'Restaurant',
+        label: 'Transport',
         value: 'restaurant' as const,
         featered:[
             {
-                name:'Editer un Restaurant',
+                name:'Voiture',
                 href:'#',
                 imageSrc:'/nav/resto.jpeg'
             },
             {
-                name:'New Resto',
+                name:'Bus',
                 href:'#',
                 imageSrc:'/nav/resto.jpeg'
             },
             {
-                name:'Suprimer un travel',
+                name:'4x4',
                 href:'#',
                 imageSrc:'/nav/travel.jpeg'
             }

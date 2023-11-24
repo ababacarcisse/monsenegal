@@ -1,11 +1,12 @@
 'use client'
 
 import { PRODUCT_CATEGORIES } from "@/config"
-import { type } from "os"
 import { Button } from "./ui/button"
 import { ChevronDown } from "lucide-react"
 import { cn } from "@/lib/utils"
 import Link from "next/link"
+import Image from 'next/image'
+
 
 type Category = (typeof PRODUCT_CATEGORIES)[number]
 
@@ -66,9 +67,14 @@ const NavItem = ({
                       onClick={() => close}
                       key={item.name}
                       className='group relative text-base sm:text-sm'>
-                        <div className="relative aspect-video overflow-hidden rounded-lg bg-gray-50">
-                            </div>
-                   
+                          <div className='relative aspect-video overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75'>
+                        <Image
+                          src={item.imageSrc}
+                          alt='product category image'
+                          fill
+                          className='object-cover object-center'
+                        />
+                      </div>
 
                       <Link
                         href={item.href}
